@@ -30,3 +30,9 @@ students.forEach((student) => {
     
   }
 })
+
+const studentClass = students.find( (student) => student.name == 'Marco Lanci')
+console.log(studentClass.class);
+
+const student_Class2 = students.find(student => student.name == 'Marco Lanci')?.class
+console.log(student_Class2);
